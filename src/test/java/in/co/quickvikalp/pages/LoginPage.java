@@ -17,7 +17,7 @@ public class LoginPage {
     WebDriverWait wait;
     Logger logger = LoggerFactory.getLogger(LoginPage.class);
 
-    @FindBy(name = "username")
+    @FindBy(css = "input[placeholder='Username']")
     WebElement username;
 
     @FindBy(name = "password")

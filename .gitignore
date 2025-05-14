@@ -1,0 +1,32 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Logs
+logs/
+*.log
+
+# Maven specific files
+target/
+*.jar
+*.war
+*.ear
+
+# Docker specific files
+*.env
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+*.class
+*.swp
+*.swo
+*.tmp
+
+# Selenium WebDriver binaries
+*.exe
+.cache/

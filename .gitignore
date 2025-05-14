@@ -5,6 +5,8 @@
 
 # Logs
 logs/
+infra/logs
+infra/screenshots
 *.log
 
 # Maven specific files

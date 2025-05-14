@@ -1,0 +1,160 @@
+19:33:39 [main] INFO  - in.co.quickvikalp.testCases.TestCase.initiateBrowser | 28 | 
+Chrome browser initiated
+19:33:39 [main] DEBUG - io.github.bonigarcia.wdm.WebDriverManager.<init> | 221 | 
+Using WebDriverManager 5.9.3
+19:33:39 [main] DEBUG - io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache | 186 | 
+Resolution chrome=136 in cache (valid until 20:12:40 14/05/2025 IST)
+19:33:39 [main] DEBUG - io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache | 186 | 
+Resolution chrome136=136.0.7103.92 in cache (valid until 01:28:26 15/05/2025 IST)
+19:33:39 [main] INFO  - io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion | 1214 | 
+Using chromedriver 136.0.7103.92 (resolved driver for Chrome 136)
+19:33:39 [main] DEBUG - io.github.bonigarcia.wdm.WebDriverManager.manage | 1173 | 
+Driver chromedriver 136.0.7103.92 found in cache
+19:33:39 [main] INFO  - io.github.bonigarcia.wdm.WebDriverManager.exportDriver | 1276 | 
+Exporting webdriver.chrome.driver as /Users/rrohaannigam/.cache/selenium/chromedriver/mac-arm64/136.0.7103.92/chromedriver
+19:33:41 [main] DEBUG - com.epam.healenium.client.RestClient.<init> | 84 | 
+[Init] sessionKey: e1014bb2cd92e115e482962c927e462b, serverUrl: http://localhost:7878/healenium, imitateUrl: http://localhost:8000/imitate
+19:33:41 [main] DEBUG - com.epam.healenium.client.RestClient.getElements | 136 | 
+[Get Elements] Request: (GET) /elements
+19:33:42 [main] DEBUG - com.epam.healenium.client.RestClient.initReport | 257 | 
+[Init Report] Request: (POST) /report/init/e1014bb2cd92e115e482962c927e462b
+19:33:42 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 40 | 
+Chrome browser maximized
+19:33:45 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 42 | 
+URI opened https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterUsername | 14 | 
+Username to be entered is Admin
+19:33:45 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:33:45 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: username, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:45 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: username, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterUsername | 17 | 
+Username entered successfully
+19:33:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterPassword | 21 | 
+Password to be entered is admin123
+19:33:45 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:33:45 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: password, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:46 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: password, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:46 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterPassword | 24 | 
+Password entered successfully
+19:33:51 [main] INFO  - in.co.quickvikalp.actions.LoginActions.clickLoginButton | 28 | 
+Clicking the login button
+19:33:51 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:33:51 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.xpath, Locator: //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:51 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.xpath, Locator: //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:33:52 [main] INFO  - in.co.quickvikalp.actions.LoginActions.clickLoginButton | 31 | 
+Login button clicked successfully
+19:33:52 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 51 | 
+Login initiated, now waiting for 5 seconds
+19:33:52 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tearDown | 58 | 
+Chrome browser closed
+19:34:05 [main] INFO  - in.co.quickvikalp.testCases.TestCase.initiateBrowser | 28 | 
+Chrome browser initiated
+19:34:05 [main] DEBUG - io.github.bonigarcia.wdm.WebDriverManager.<init> | 221 | 
+Using WebDriverManager 5.9.3
+19:34:05 [main] DEBUG - io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache | 186 | 
+Resolution chrome=136 in cache (valid until 20:12:40 14/05/2025 IST)
+19:34:05 [main] DEBUG - io.github.bonigarcia.wdm.cache.ResolutionCache.checkKeyInResolutionCache | 186 | 
+Resolution chrome136=136.0.7103.92 in cache (valid until 01:28:26 15/05/2025 IST)
+19:34:05 [main] INFO  - io.github.bonigarcia.wdm.WebDriverManager.resolveDriverVersion | 1214 | 
+Using chromedriver 136.0.7103.92 (resolved driver for Chrome 136)
+19:34:05 [main] DEBUG - io.github.bonigarcia.wdm.WebDriverManager.manage | 1173 | 
+Driver chromedriver 136.0.7103.92 found in cache
+19:34:05 [main] INFO  - io.github.bonigarcia.wdm.WebDriverManager.exportDriver | 1276 | 
+Exporting webdriver.chrome.driver as /Users/rrohaannigam/.cache/selenium/chromedriver/mac-arm64/136.0.7103.92/chromedriver
+19:34:06 [main] DEBUG - com.epam.healenium.client.RestClient.<init> | 84 | 
+[Init] sessionKey: d5ee32fb4831ac7e9bc0a2d03053ad33, serverUrl: http://localhost:7878/healenium, imitateUrl: http://localhost:8000/imitate
+19:34:06 [main] DEBUG - com.epam.healenium.client.RestClient.getElements | 136 | 
+[Get Elements] Request: (GET) /elements
+19:34:07 [main] DEBUG - com.epam.healenium.client.RestClient.initReport | 257 | 
+[Init Report] Request: (POST) /report/init/d5ee32fb4831ac7e9bc0a2d03053ad33
+19:34:07 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 40 | 
+Chrome browser maximized
+19:34:13 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 42 | 
+URI opened https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:13 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterUsername | 14 | 
+Username to be entered is Admin
+19:34:13 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:34:14 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: username, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:15 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: username, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:15 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: password, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:15 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.xpath, Locator: //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:34 [main] WARN  - com.epam.healenium.processor.GetReferenceElementsProcessor.execute | 51 | 
+Failed to find an element using locator By.name: username
+19:34:34 [main] WARN  - com.epam.healenium.processor.GetReferenceElementsProcessor.execute | 52 | 
+Reason: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5ee32fb4831ac7e9bc0a2d03053ad33, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: /var/folders/l2/ct2l8ygn3r1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56152/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5ee32fb4831ac7e9bc0a2d03053ad33
+19:34:34 [main] DEBUG - com.epam.healenium.client.RestClient.getReferenceElements | 210 | 
+[Get Reference Elements] Request. Locator: username, Command: findElement, Url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:34 [main] WARN  - com.epam.healenium.processor.HealingProcessor.execute | 38 | 
+Trying to heal...
+19:34:34 [main] WARN  - com.epam.healenium.processor.SaveHealingResultsProcessor.enrichHealingResult | 30 | 
+Using healed locator: Scored(score=0.9484593837535014, value=By.cssSelector: div > input.oxd-input.oxd-input--active[name='fdsfsdf'][placeholder='Username'])
+19:34:34 [main] DEBUG - com.epam.healenium.client.RestClient.healRequest | 182 | 
+[Save Healed Elements] Locator(value=div > input.oxd-input.oxd-input--active[name='fdsfsdf'][placeholder='Username'], type=By.cssSelector)
+19:34:44 [main] WARN  - com.epam.healenium.processor.GetReferenceElementsProcessor.execute | 51 | 
+Failed to find an element using locator By.name: username
+19:34:44 [main] WARN  - com.epam.healenium.processor.GetReferenceElementsProcessor.execute | 52 | 
+Reason: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5ee32fb4831ac7e9bc0a2d03053ad33, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: /var/folders/l2/ct2l8ygn3r1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56152/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5ee32fb4831ac7e9bc0a2d03053ad33
+19:34:44 [main] DEBUG - com.epam.healenium.client.RestClient.getReferenceElements | 210 | 
+[Get Reference Elements] Request. Locator: username, Command: findElement, Url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:45 [main] WARN  - com.epam.healenium.processor.HealingProcessor.execute | 38 | 
+Trying to heal...
+19:34:45 [main] WARN  - com.epam.healenium.processor.SaveHealingResultsProcessor.enrichHealingResult | 30 | 
+Using healed locator: Scored(score=0.9356022408963585, value=By.cssSelector: div > input.oxd-input.oxd-input--active[name='fdsfsdf'][placeholder='Username'])
+19:34:45 [main] DEBUG - com.epam.healenium.client.RestClient.healRequest | 182 | 
+[Save Healed Elements] Locator(value=div > input.oxd-input.oxd-input--active[name='fdsfsdf'][placeholder='Username'], type=By.cssSelector)
+19:34:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterUsername | 17 | 
+Username entered successfully
+19:34:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterPassword | 21 | 
+Password to be entered is admin123
+19:34:45 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:34:45 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: password, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:45 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.name, Locator: password, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:45 [main] INFO  - in.co.quickvikalp.actions.LoginActions.enterPassword | 24 | 
+Password entered successfully
+19:34:50 [main] INFO  - in.co.quickvikalp.actions.LoginActions.clickLoginButton | 28 | 
+Clicking the login button
+19:34:50 [main] INFO  - in.co.quickvikalp.pages.LoginPage.<init> | 31 | 
+Login Page constructor initiated
+19:34:50 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.xpath, Locator: //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:50 [main] DEBUG - com.epam.healenium.client.RestClient.saveElements | 123 | 
+[Save Elements] By: By.xpath, Locator: //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button, Command: findElement, URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+19:34:51 [main] INFO  - in.co.quickvikalp.actions.LoginActions.clickLoginButton | 31 | 
+Login button clicked successfully
+19:34:51 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tutorial | 51 | 
+Login initiated, now waiting for 5 seconds
+19:34:51 [main] INFO  - in.co.quickvikalp.testCases.TestCase.tearDown | 58 | 
+Chrome browser closed
